@@ -1,0 +1,19 @@
+{
+  "name": "@matchzone/web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "next": "15.0.0-canary.53",
+    "react": "19.0.0-rc.1",
+    "react-dom": "19.0.0-rc.1",
+    "zod": "3.23.8"
+  }
+}
