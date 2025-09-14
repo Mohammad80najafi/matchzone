@@ -40,3 +40,9 @@ Thumbs.db
 /infra/postgres-data/
 /infra/redis-data/
 *.pid
+
+# turborepo cache
+.turbo
+
+# misc cache
+.cache
